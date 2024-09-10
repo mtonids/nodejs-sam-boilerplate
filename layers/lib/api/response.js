@@ -4,7 +4,7 @@
 //     "body": {}
 //     "errors": []
 // }
-const apiResponse = (body = {}, errors = []) => {
+export default (body = {}, errors = []) => {
     let response = {
         headers: {
             'Content-Type': 'application/json'
@@ -17,5 +17,3 @@ const apiResponse = (body = {}, errors = []) => {
     };
     return response;
 };
-
-export default apiResponse;

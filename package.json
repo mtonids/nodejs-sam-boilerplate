@@ -2,7 +2,7 @@
     "name": "nodejs-sam-template",
     "version": "0.0.1",
     "type": "module",
-    "description": "template for a Node.js Lambda function",
+    "description": "Project template for a Node.js Lambda functions",
     "directories": {
       "functions": "functions"
     }
