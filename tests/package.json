@@ -1,0 +1,16 @@
+{
+  "name": "tests",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Lambda function and unit tests",
+  "directories": {
+    "tests": "tests"
+  },
+  "scripts": {
+    "test-sample-app-handler": "mocha functions/sample-app/sample-app.handler.test.js"
+  },
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.7.3"
+  }
+}
